@@ -21,6 +21,8 @@ async function bootstrap() {
     }),
   );
 
+  console.log('AuthMs - Testing log');
+
   await app.listen();
 }
 bootstrap();
